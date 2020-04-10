@@ -34,7 +34,7 @@ p {
 
 
 <div>
-    <p>2020-3-18  13:23</p>
+    <p>2020-4-3  01:11</p>
     <p id="date"></p>
     <p id="sec">sec:</p>
     <p id="min">min:</p>
@@ -153,7 +153,7 @@ p {
 <script>
     var date = new Date()
     var dateStr = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + '   ' + date.getHours() + ':' + date.getMinutes()
-    var difference = new Date() - new Date('2020-03-18 13:23')
+    var difference = new Date() - new Date('2020-04-03 01:11')
     document.getElementById('date').innerText += dateStr
     document.getElementById('sec').innerText += parseInt(difference/1000)
     document.getElementById('min').innerText += parseInt(difference/1000/60)
